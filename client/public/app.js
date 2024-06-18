@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const message = document.getElementById('message');
   
     button.addEventListener('click', function () {
-      message.textContent = 'Button was clicked!';
+      message.textContent = 'Button was clicked!Blabla';
     });
   });
   
