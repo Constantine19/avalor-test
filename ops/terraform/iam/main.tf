@@ -1,4 +1,7 @@
 # ops/terraform/iam/main.tf
+terraform {
+  backend "s3" {}
+}
 
 provider "aws" {
   region = var.region
