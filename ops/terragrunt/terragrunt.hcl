@@ -19,3 +19,4 @@ remote_state {
     dynamodb_table = "terraform-lock-table"
   }
 }
+
